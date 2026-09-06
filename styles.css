@@ -715,6 +715,28 @@ section { scroll-margin-top: 84px; }
   transform: rotate(-3deg);
 }
 
+.visit-us {
+  margin-top: 2.2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.22);
+  padding-top: 1.6rem;
+}
+
+.visit-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted-dark);
+  margin-bottom: 0.5rem;
+}
+
+.visit-us address {
+  font-style: normal;
+  font-size: 1.02rem;
+  color: #fff;
+  margin-bottom: 1.1rem;
+}
+
 /* ============ FOOTER ============ */
 .site-footer {
   background: #080808;
@@ -773,6 +795,15 @@ section { scroll-margin-top: 84px; }
   text-decoration: none;
   font-weight: 700;
 }
+
+.footer-location { margin: 0; }
+
+.footer-location a {
+  color: var(--muted-dark);
+  text-decoration: none;
+}
+
+.footer-location a:hover { color: var(--gold); }
 
 /* ============ RESPONSIVE ============ */
 @media (max-width: 1020px) {
